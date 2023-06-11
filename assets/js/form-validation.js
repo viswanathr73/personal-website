@@ -1,9 +1,9 @@
 function validateForm() {
-    var name = document.getElementById("name").value;
-    var mobilenumber = document.getElementById("mobilenumber").value;
-    var email = document.getElementById("email").value;
-    var subject = document.getElementById("subject").value;
-    var message = document.getElementById("message").value;
+    var name = document.getElementById("name").value.trim();
+    var mobilenumber = document.getElementById("mobilenumber").value.trim();
+    var email = document.getElementById("email").value.trim();
+    var subject = document.getElementById("subject").value.trim();
+    var message = document.getElementById("message").value.trim();
     var msg1 = document.getElementById("msg1")
   
     if (name == "") {
